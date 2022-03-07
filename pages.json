@@ -1,0 +1,54 @@
+{
+	"pages": [
+		{
+			"path": "pages/shelf/shelf",
+			"style": {
+				"navigationBarTitleText": "书架"
+			}
+		},
+		{
+			"path": "pages/library/library",
+			"style": {
+				"navigationBarTitleText": "书库",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#000000",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"text": "书架",
+				"pagePath": "pages/shelf/shelf",
+				"iconPath": "static/tabbar/shelf.svg",
+				"selectedIconPath": "static/tabbar/shelf-active.svg"
+			},
+			{
+				"text": "书库",
+				"pagePath": "pages/library/library",
+				"iconPath": "static/tabbar/library.svg",
+				"selectedIconPath": "static/tabbar/library-active.svg"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
